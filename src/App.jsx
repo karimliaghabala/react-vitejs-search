@@ -31,6 +31,7 @@ export default class App extends Component {
             <div className="col-12">
               <div className="form-group">
                 <label htmlFor="">İşçiləri axtar</label>
+                <p id="helpId" className="text-muted">'Frodo Baggins','Samwise Gamgee','Gandalf the Gray','Aragorn','Legolas'</p>
                 <input type="text" onChange={this.getDataFilter} className="form-control" placeholder="" aria-describedby="helpId"></input>
                 <small id="helpId" className="text-muted">İşçilərin ad və soyadını  daxil edin (Məs: Kərimli Ağabala)</small>
               </div>
